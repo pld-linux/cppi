@@ -7,6 +7,7 @@ License:	GPL
 Group:		Development/Tools
 Source0:	ftp://alpha.gnu.org/gnu/fetish/%{name}-%{version}.tar.bz2
 # Source0-md5:	2b9e79041d49d9dce0a2b3f698aa32fe
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
