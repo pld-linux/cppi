@@ -20,6 +20,7 @@ GNU cppi sprawdza i poprawia wciêcia dyrektyw preprocesora C i C++.
 %setup -q
 
 %build
+cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
