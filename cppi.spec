@@ -1,5 +1,5 @@
 Summary:	GNU cppi - checks the indentation of C and C++ preprocessor directives
-Summary(pl):	GNU cppi - narzêdzie sprawdzaj±ce wciêcia dyrektyw preprocesora C i C++
+Summary(pl.UTF-8):   GNU cppi - narzÄ™dzie sprawdzajÄ…ce wciÄ™cia dyrektyw preprocesora C i C++
 Name:		cppi
 Version:	1.12
 Release:	1
@@ -14,8 +14,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 GNU `cppi' adjusts or checks the indentation of C and C++ preprocessor
 directives in a file.
 
-%description -l pl
-GNU cppi sprawdza i poprawia wciêcia dyrektyw preprocesora C i C++.
+%description -l pl.UTF-8
+GNU cppi sprawdza i poprawia wciÄ™cia dyrektyw preprocesora C i C++.
 
 %prep
 %setup -q
