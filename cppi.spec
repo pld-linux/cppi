@@ -5,7 +5,7 @@ Version:	1.12
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	ftp://ftp.gnu.org/gnu/coreutils/%{name}-%{version}.tar.bz2
+Source0:	http://ftp.gnu.org/gnu/coreutils/%{name}-%{version}.tar.bz2
 # Source0-md5:	3a9b8fa70cae2fb36b089a5f2ef4326f
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
