@@ -1,13 +1,14 @@
 Summary:	GNU cppi - checks the indentation of C and C++ preprocessor directives
 Summary(pl.UTF-8):	GNU cppi - narzędzie sprawdzające wcięcia dyrektyw preprocesora C i C++
 Name:		cppi
-Version:	1.17
+Version:	1.18
 Release:	1
 License:	GPL v3+
 Group:		Development/Tools
 Source0:	http://ftp.gnu.org/gnu/cppi/%{name}-%{version}.tar.xz
-# Source0-md5:	89acdfdbe39e19554c8c00e48b470942
+# Source0-md5:	720f4e442287283a02979ba43a44366e
 URL:		http://www.gnu.org/software/cppi/
+BuildRequires:	gettext-devel >= 0.18.1
 BuildRequires:	help2man
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
