@@ -8,7 +8,7 @@ Group:		Development/Tools
 Source0:	http://ftp.gnu.org/gnu/cppi/%{name}-%{version}.tar.xz
 # Source0-md5:	720f4e442287283a02979ba43a44366e
 URL:		http://www.gnu.org/software/cppi/
-BuildRequires:	gettext-devel >= 0.18.1
+BuildRequires:	gettext-tools >= 0.18.1
 BuildRequires:	help2man
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
